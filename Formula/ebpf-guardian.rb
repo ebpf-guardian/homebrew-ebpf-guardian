@@ -1,8 +1,8 @@
 class EbpfGuardian < Formula
   desc "Static analyzer for eBPF programs with security rule engine"
   homepage "https://github.com/ebpf-guardian/cli"
-  url "https://github.com/ebpf-guardian/cli/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "PLACEHOLDER_SHA256"
+  url "https://github.com/ebpf-guardian/cli/archive/refs/tags/v0.1.0-test10.tar.gz"
+  sha256 "449d3d336c755cbb3d06366fbbd082ff39f70c8f05d37186248a36f9fbe843ee"
   license "MIT OR Apache-2.0"
 
   depends_on "rust" => :build
